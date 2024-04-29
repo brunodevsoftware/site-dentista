@@ -1,0 +1,110 @@
+.cabecalho__computador {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.cabecalho__computador img {
+    width: 40px;
+}
+
+
+.cabecalho__computador ul {
+    list-style: none;
+    display: flex;
+}
+
+.cabecalho__computador a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #666666;
+    margin-right: 16px;
+}
+
+.cabecalho__computador a:hover {
+    color: #ab7b3b;
+    font-weight: bold;
+}
+
+.cabecalho__celular {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .cabecalho__computador {
+        display: none;
+    }
+
+    .cabecalho__celular {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px;
+    }
+
+    .cabecalho__celular img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .cabecalho__celular-botao {
+        display: none;
+    }
+
+    .cabecalho__celular-rotulo {
+        padding: 15px 20px;
+    }
+
+    .cabecalho__celular-hambuerguer::before,
+    .cabecalho__celular-hambuerguer,
+    .cabecalho__celular-hambuerguer::after {
+        display: block;
+        background-color: #ab7b3b;
+        height: 3px;
+        width: 25px;
+        position: relative;
+    }
+
+    .cabecalho__celular-hambuerguer::before,
+    .cabecalho__celular-hambuerguer::after {
+        content: "";
+        position: absolute;
+        left: 0;
+    }
+
+
+    .cabecalho__celular-hambuerguer::before {
+        top: -8px;
+    }
+
+    .cabecalho__celular-hambuerguer::after {
+        top: 8px;
+    }
+
+    .lista-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: white;
+        padding: 15px;
+        box-shadow:  0 4px 8px rgba(0,0,0,0.1);
+        z-index: 1;
+    }
+
+    .lista-menu li {
+        margin: 8px 0;
+    }
+
+    .lista-menu a {
+        text-decoration: none;
+        color: #666666;
+        font-size: 20px;
+    }
+
+    .cabecalho__celular-botao:checked + .cabecalho__celular-rotulo + .lista-menu {
+        display: flex;
+    }
+}
