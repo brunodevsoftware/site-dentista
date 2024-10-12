@@ -1,0 +1,230 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+body h2 {
+    font-size: 48px;
+    color: #ab7b3b;
+    font-weight: bold;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.cabecalho img {
+    width: 40px;
+}
+
+.cabecalho ul {
+    display: flex;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #666666;
+    font-family: "DM Sans", sans-serif;
+}
+
+.btn {
+    background-color: #ab7b3b;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 180px;
+    height: 45px;
+    transition: 1s all;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.risco {
+    border-bottom: 1px solid #000000;
+    margin: 20px 30px 0 30px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 16px 16px 0 16px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    color: #666666;
+    text-align: center;
+    margin: 0 168px 20px 168px;
+    font-weight: 600;
+}
+
+
+.banner__acao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__acao img {
+    width: canal__texto50px;
+    margin-right: 16px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.conteudo p {
+    font-size: 20px;
+    color: #666666;
+    line-height: 32px;
+
+    margin: 35px 0 35px 0;
+}
+
+.conteudo__texto {
+    margin: 0 100px 0 200px;
+}
+
+.carrossel {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.carrossel_conteudo {
+    margin: 40px 250px 0 250px;
+}
+
+
+.perfil {
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.perfil img {
+    margin: 0 0 0 50px;
+    height: 750px;
+    border-radius: 16px;
+}
+
+.perfil p {
+    font-size: 20px;
+    color: #666666;
+    line-height: 32px;
+
+    margin: 35px 0 35px 0;
+}
+
+.perfil__texto {
+    margin: 0 100px 0 200px;
+}
+
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 45px 0;
+    margin-top: 50px;
+}
+
+footer h3,
+p {
+    color: #ffffff;
+}
+
+footer h3 {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+footer p {
+    margin-bottom: 13px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+}
+
+.contato h3 {
+    color: #666666;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 14px 0 14px 0;
+}
+
+.contato h2 {
+    margin-bottom: 20px;
+}
+
+.contato p {
+    color: #666666;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    color: #666666;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.formulario fieldset {
+    margin: 15px 0;
+    color: #666666;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.formulario legend {
+    margin-bottom: 16px;
+}
+
+.formulario__input {
+    height: 20px;
+    border-radius: 16px;
+    border: 1px solid #666666;
+    padding: 16px;
+}
+
+.formulario select {
+    height: 40px;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 16px;
+}
+
+.mapa {
+    text-align: center;
+    margin: 0 50px;
+}
+
+.mapa h2 {
+    margin-bottom: 30px;
+}
+
+
